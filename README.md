@@ -1,4 +1,4 @@
 # FCC-projects1
 Project exercises from free code camp
 
-Project 1: Tributary
+Project 1: Tribute
