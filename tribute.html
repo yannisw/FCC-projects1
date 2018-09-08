@@ -1,52 +1,61 @@
-<div class="container-fluid">
-<style>
-  body{
-    background-color: rgb(25, 25, 112);
-  }
-  .body-box{
-    background-color: rgb(240,248,255);
-    padding: 20px;
-    margin: 0px 0px 20px 0px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    border-radius:5px;  
-  }
-  .list-box{
-    margin:0px 0px 20px 0px;
-    padding:40px;
-  }
-  .bg{
-    width: 100%;
-  }
-</style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="title">Dale Carnegie - The Management Thinker</title>
+    <style>
+      img{
+        max-width:100%;
+        display: block;
+        height:auto;
+        margin:auto;
+      }
+    </style>
+  </head>
+  <body style="margin:0">
+<div id="img-div">    
+<img src="http://i0.wp.com/www.breakthrough.marketing/wp-content/uploads/2014/10/Dale-Carnegie-Breakthrough-Marketing-Graham-Clark.jpg?w=960" alt="Dale Carnegie" id="image" ><p id="img-caption">Dale Carnegie</p>
+   </div>    
+<h1>Dale Carnegie </h1>
+<h3 style="color:grey";>The Management Thinker</h3>
 
-<img class="img-responsive bg" src="https://mtbifiction.files.wordpress.com/2015/01/einstein.jpg">
-<h1 class="text-center body-box">
-Albert Einstein
-</h1>
-<ul class="body-box list-box">
-  <li>
-    born in Bern, Switzerland.
-  </li>
-  <li>
-  </li> 
-  <li>
-  </li>  
-  <li>
-  </li>  
-  <li>
-  </li>  
-  <li>
-  </li>  
-  <li>
-  </li>  
-  <li>
-  </li>  
-  <li>
-    Died April 18, 1955—at the age of 76
-  </li>  
-</ul>  
-</div>
-<button>
-</button>  
+<main id="main">
+<p id="tribute-info">Dale Carnegie (1888-1955) is best-known for his work on the basic, yet essential, principles for dealing with people successfully. His common-sense advice included never criticising, complaining about or condemning another person, giving sincere appreciation to others, and stimulating in others a specific desire, in order to motivate them.
+</p>  
+ 
+<p>
+Such advice formed the basis of the best-selling book for which Carnegie has become famous, <a id="tribute-link" target="_blank" href="https://www.hubspot.com/sales/how-to-win-friends-and-influence-people-summary"> How to win friends and influence people</a> (1936). In this text, Carnegie's simple rules on how to achieve success with people are illustrated from his own and others' experiences, and also with historical stories about people such as Roosevelt and Lincoln. Although he is mainly known for this particular book, Carnegie's career began with training people to become speakers and writing various other books. He produced some of the earliest self-improvement manuals, and these are still popular today.
+</p>
+Carnegie's main focus: 
+<ul>
+  <li>interpersonal skills</li> 
+  <li>effective communication </li>
+  <li>being a successful salesperson.</li></ul></p>
+<h5>Top 3 Insights from Dale Carnegie</h5>
+<ol>
+  <li>Don't use the word conversion to describe the process after a prospect takes action and buys, use compliance.</li>
+  <li>There is only one way to get anybody to do anything or take any action, and that's by making the prospect want to do it. Remember, there is no other way.</li>
+  <li>When eating you may prefer blueberries, but when fishing you may prefer worms. Do this in human affairs.</li>
+</ol>  
+<!--Try grey out checkboxes if 'I am his fan' is unselected -->
+<form>
+  How well did you know Dale Carnegie?
+  <label><input type="radio" name="knowCarnegie">I am his fan!
+  <label><input type="checkbox" name= "fan">I know the colour of his underpants!</label>
+  <label><input type="checkbox" name="fan">I have read his books.</label></label>
+  <label><input type="radio" name="knowCarnegie">This guy sounds kinda familiar...who is he?</label>
+  <label><input type="radio" name="knowCarnegie">I have no idea who he is.</label>
+</form>
+<p><a href="#header">Top of Page</a></p>
+<form action="/submitCarnegieComments"><input type="text" required placeholder="Comments"><button type="submit">Submit</button></form>
+<form>
+  Rate us!
+  <label for ="awesome"><input id="awesome" type="radio" name="rateUs" checked>This is awesome!</label>
+  <label for ="meh"><input id="meh" type="radio" name="rateUs">This is meh...</label>
+  <label for ="hate"><input id="hate" type="radio" name="rateUs">I hate this!</label>
+  <button type="submit">Submit</button>
+ 
+  
+</form>
+  </body>
+</main>   
+</html>
