@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="survey-form.css">
+</head>
+
+<body>
+
+	<h1 id="title" class="title container">
+		Survey Form
+	</h1>
+	<div class="body">
+		<div class="container ">
+			<p id="description" class="description">
+				Let us know how we can improve this service.
+			</p>
+			<form action="#" id="survey-form" method="post">
+
+				<label for="name" id="name-label">Name: <span class="required">*</span></label>
+				<input type="text" id="name" placeholder="Enter your name" required>
+
+				<label for="email" id="email-label">Email: <span class="required">*</span></label>
+				<input type="email" id="email" placeholder="Enter your email" required>
+
+				<label for="number" id="number-label">Age</label>
+				<input type="number" id="number" min="4" max="120" placeholder="Age">
+
+				<label for="dropdown">Where did you find us?</label>
+				<select name="where-u-found-us" id="dropdown">
+					<option value="friends">friends</option>
+					<option value="facebook">facebook</option>
+				</select>
+				<label for="recommend">How likely would you recommend us?</label>
+				<label for="highly-recommend">
+					<input type="radio" name="recommend" id="highly-recommend" value="highly-recommend">Highly recommend
+				</label>
+				<label for="meh">
+					<input type="radio" name="recommend" id="meh" value="meh">Meh, it's alright
+				</label>
+				<label for="not-recommend">
+					<input type="radio" name="recommend" id="not-recommend" value="not-recommend">Wouldn't recommend
+				</label>
+
+				<label for="resources">
+					What learning resources do you use?
+				</label>
+				<label for="video-resource">
+					<input type="checkbox" name="resources" id="video-resource" value="videos">Videos
+				</label>
+				<label for="book-resource">
+					<input type="checkbox" name="resources" id="book-resource" value="books">Books
+				</label>
+				<label for="comments">
+					Additional Comments:
+					<textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+				</label>
+				<input type="submit" id="submit">
+			</form>
+		</div>
+
+	</div>
+</body>
+
+</html>
